@@ -9,7 +9,7 @@ public class DrawCakeWithForApp {
         final int CANDLE = 3;
         final int CREAM  = 4;
         final int BASE   = 5;
-        int width = 0;
+        int width;
 
         do {
             Scanner in = new Scanner(System.in);
