@@ -61,8 +61,15 @@ public class RestaurantApp {
         switch (option) {
             case 1:
                 if (quantity < food_1_available_quantity) {
-                    System.out.printf("%d x \"%s\"   (%f) = %f\n",
-                            quantity, FOOD_1_NAME, FOOD_1_PRICE, quantity*FOOD_1_PRICE);
+                    if (quantity*FOOD_1_PRICE > 200) {
+                        System.out.printf("%d x \"%s\"   (%f) = %f\n",
+                                quantity, FOOD_1_NAME, FOOD_1_PRICE, quantity*FOOD_1_PRICE);
+                        System.out.println("The amount of the order exceeds 200 MDL, the delivery will be free");
+                    } else {
+                        System.out.println("The amount of the order is less than 200 MDL, the delivery will cost 50 MDL");
+                        System.out.printf("%d x \"%s\"   (%f) + 50 Delivery = %f\n",
+                                quantity, FOOD_1_NAME, FOOD_1_PRICE, quantity*FOOD_1_PRICE+50);
+                    }
                     System.out.println("Confirm order ( 1 - yes, 0 - no )?");
                     confirmation = in.nextInt();
                     if (confirmation == 1) {
@@ -77,8 +84,15 @@ public class RestaurantApp {
                 break;
             case 2:
                 if (quantity < food_2_available_quantity) {
-                    System.out.printf("%d x \"%s\"   (%f) = %f\n",
-                            quantity, FOOD_2_NAME, FOOD_2_PRICE, quantity*FOOD_2_PRICE);
+                    if (quantity*FOOD_1_PRICE > 200) {
+                        System.out.printf("%d x \"%s\"   (%f) = %f\n",
+                                quantity, FOOD_2_NAME, FOOD_2_PRICE, quantity*FOOD_2_PRICE);
+                        System.out.println("The amount of the order exceeds 200 MDL, the delivery will be free");
+                    } else {
+                        System.out.println("The amount of the order is less than 200 MDL, the delivery will cost 50 MDL");
+                        System.out.printf("%d x \"%s\"   (%f) + 50 Delivery = %f\n",
+                                quantity, FOOD_2_NAME, FOOD_2_PRICE, quantity*FOOD_2_PRICE+50);
+                    }
                     System.out.println("Confirm order ( 1 - yes, 0 - no )?");
                     confirmation = in.nextInt();
                     if (confirmation == 1) {
@@ -93,8 +107,15 @@ public class RestaurantApp {
                 break;
             case 3:
                 if (quantity < food_3_available_quantity) {
-                    System.out.printf("%d x \"%s\"   (%f) = %f\n",
-                            quantity, FOOD_3_NAME, FOOD_3_PRICE, quantity*FOOD_3_PRICE);
+                    if (quantity*FOOD_1_PRICE > 200) {
+                        System.out.printf("%d x \"%s\"   (%f) = %f\n",
+                                quantity, FOOD_3_NAME, FOOD_3_PRICE, quantity*FOOD_3_PRICE);
+                        System.out.println("The amount of the order exceeds 200 MDL, the delivery will be free");
+                    } else {
+                        System.out.println("The amount of the order is less than 200 MDL, the delivery will cost 50 MDL");
+                        System.out.printf("%d x \"%s\"   (%f) + 50 Delivery = %f\n",
+                                quantity, FOOD_3_NAME, FOOD_3_PRICE, quantity*FOOD_3_PRICE+50);
+                    }
                     System.out.println("Confirm order ( 1 - yes, 0 - no )?");
                     confirmation = in.nextInt();
                     if (confirmation == 1) {
