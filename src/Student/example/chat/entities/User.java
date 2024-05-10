@@ -20,13 +20,15 @@ public class User {
     }
 
     public void setEmail(String email) {
-        // TODO: de adaugat validare cu @ si .
         String regex = "^[a-zA-Z0-9._-]+@[a-zA-Z0-9]+\\.[a-zA-Z]{2,5}$";
         if (email != null) {
             if (!email.equals("")) {
                 if (email.matches(regex)) {
                     email = email.toLowerCase();
                     this.email = email;
+                    System.out.println(email + " is a valid email address");
+                } else {
+                    System.out.println(email + " is not a valid email address");
                 }
             } else {
                 System.out.println("Email is empty");
