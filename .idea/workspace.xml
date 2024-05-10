@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="HW lesson 16">
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="HW lesson 16 am dopilit cu napilinicul">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Blender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Blender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Banana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Orange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714669690404</updated>
       <workItem from="1714669691485" duration="27826000" />
-      <workItem from="1715321990986" duration="13318000" />
+      <workItem from="1715321990986" duration="14312000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <option name="closed" value="true" />
@@ -214,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715356078535</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="HW lesson 16 am dopilit cu napilinicul">
+      <option name="closed" value="true" />
+      <created>1715356799444</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715356799444</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +254,7 @@
     <MESSAGE value="schimbari majore in packages" />
     <MESSAGE value="facuta clasa CoffeeMachine aparte" />
     <MESSAGE value="HW lesson 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW lesson 16" />
+    <MESSAGE value="HW lesson 16 am dopilit cu napilinicul" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW lesson 16 am dopilit cu napilinicul" />
   </component>
 </project>

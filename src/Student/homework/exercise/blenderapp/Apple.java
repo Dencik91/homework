@@ -5,4 +5,8 @@ public class Apple extends Fruit {
         super(weight);
         useFull = 80;
     }
+
+    public void printVitamins () {
+        System.out.println("Merele contin Vitaminele B-complex");
+    }
 }

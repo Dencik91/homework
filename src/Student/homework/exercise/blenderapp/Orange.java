@@ -5,5 +5,9 @@ public class Orange extends Fruit {
         super(weight);
         useFull = 90;
     }
+
+    public void printVitamins () {
+        System.out.println("Portocalele contin vitamina C");
+    }
 }
 

@@ -17,4 +17,6 @@ abstract public class Fruit {
         return weight;
     }
 
+    abstract public void printVitamins();
+
 }
