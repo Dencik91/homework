@@ -1,23 +1,6 @@
-package homework;
+package Student.homework.exercise.coffeeapp;
 
-public class CoffeeApp {
-    public static void main(String[] args) {
-        Container cup = new Container();
-        cup.setVolume(100);
-        System.out.println(cup.toString() + cup.getVolume() + " ml");
-        cup.setVolume(50);
-        System.out.println(cup.toString() + cup.getVolume() + " ml");
-        cup.setVolume(200);
-        System.out.println(cup.toString() + cup.getVolume() + " ml");
-        cup.setVolume(0);
-        System.out.println(cup.toString() + cup.getVolume() + " ml");
-        cup.setVolume(137);
-        System.out.println(cup.toString() + cup.getVolume() + " ml");
-        cup.setVolume(20);
-        System.out.println(cup.toString() + cup.getVolume() + " ml");
-    }
-}
-class Container {
+public class Container {
     final int maxVolume = 200; //ml
     private int volume = 0;
 
@@ -73,12 +56,3 @@ class Container {
         return cupView;
     }
 }
-
-/*
-      +----------+
-       \        /
-        \      /
-         \    /
-          \__/
-
- */

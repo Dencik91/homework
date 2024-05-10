@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="dopilit else-uri pentru email">
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Cup of coffee">
+      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student/homework/test/TestCoffeeApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/CoffeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/CoffeeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/CoffeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/CoffeeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/DrawCakeWithForApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/DrawCakeWithForApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/RestaurantApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/RestaurantApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/SeaBigShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/SeaBigShip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714669690404</updated>
       <workItem from="1714669691485" duration="27826000" />
-      <workItem from="1715321990986" duration="6849000" />
+      <workItem from="1715321990986" duration="8676000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <option name="closed" value="true" />
@@ -179,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715324359650</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Cup of coffee">
+      <option name="closed" value="true" />
+      <created>1715337483510</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715337483510</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +219,7 @@
     <MESSAGE value="Ship exercise corrected" />
     <MESSAGE value="Prepare for Homework&#10;Regex for email is done" />
     <MESSAGE value="dopilit else-uri pentru email" />
-    <option name="LAST_COMMIT_MESSAGE" value="dopilit else-uri pentru email" />
+    <MESSAGE value="Cup of coffee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cup of coffee" />
   </component>
 </project>
