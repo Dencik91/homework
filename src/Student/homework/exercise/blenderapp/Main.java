@@ -11,13 +11,13 @@ public class Main {
         Juice bananaJuice = portableBlender.blend(banana);
         Juice orangeJuice = portableBlender.blend(orange);
         System.out.println("Din "+apple.getWeight() +"g de mere am obtinut: "
-                +appleJuice.volume +"ml de suc ");
+                +appleJuice.getVolume() +"ml de suc ");
         apple.printVitamins();
         System.out.println("Din "+banana.getWeight() +"g de banane am obtinut: "
-                +bananaJuice.volume +"ml de suc ");
+                +bananaJuice.getVolume() +"ml de suc ");
         banana.printVitamins();
         System.out.println("Din "+orange.getWeight() +"g de portocale am obtinut: "
-                +orangeJuice.volume +"ml de suc ");
+                +orangeJuice.getVolume() +"ml de suc ");
         orange.printVitamins();
     }
 
