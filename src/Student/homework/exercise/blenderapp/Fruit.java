@@ -1,7 +1,7 @@
 package Student.homework.exercise.blenderapp;
 
 abstract public class Fruit {
-    public int weight;
+    int weight;
     int useFull = 0;
 
     public Fruit() {}
@@ -12,6 +12,9 @@ abstract public class Fruit {
 
     public void setWeight(int weight) {
         this.weight = weight;
+    }
+    public int getWeight() {
+        return weight;
     }
 
 }
