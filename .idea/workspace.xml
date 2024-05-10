@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Cup of coffee">
-      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student/homework/test/TestCoffeeApp.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="schimbari majore in packages">
+      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/CoffeeMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/CoffeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/CoffeeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/DrawCakeWithForApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/DrawCakeWithForApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/RestaurantApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/RestaurantApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/SeaBigShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/SeaBigShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/CoffeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/Container.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.CoffeeApp.executor": "Run",
+    "Application.CoffeeMachine.executor": "Run",
     "Application.DrawCakeWithForApp.executor": "Run",
     "Application.IdentificationProviderTest.executor": "Run",
     "Application.Main.executor": "Run",
@@ -94,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714669690404</updated>
       <workItem from="1714669691485" duration="27826000" />
-      <workItem from="1715321990986" duration="8676000" />
+      <workItem from="1715321990986" duration="9391000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <option name="closed" value="true" />
@@ -192,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715337483510</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="schimbari majore in packages">
+      <option name="closed" value="true" />
+      <created>1715338998567</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715338998567</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,7 @@
     <MESSAGE value="Prepare for Homework&#10;Regex for email is done" />
     <MESSAGE value="dopilit else-uri pentru email" />
     <MESSAGE value="Cup of coffee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cup of coffee" />
+    <MESSAGE value="schimbari majore in packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="schimbari majore in packages" />
   </component>
 </project>
