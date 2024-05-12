@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="HW 17 encapsulation dopilit normal">
-      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/moneywireapp/MoneyWireApp.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="GitHub MoneyWireApp">
+      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/moneywireapp/MoneyWireAppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/test/TestCoffeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/test/coffeeapptest/TestCoffeeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/moneywireapp/MoneyWireApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/moneywireapp/MoneyWireApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     "Application.IdentificationProviderTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MoneyWireApp.executor": "Run",
+    "Application.MoneyWireAppTest.executor": "Run",
     "Application.RestaurantApp.executor": "Run",
     "Application.SeaBigShip.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -93,7 +94,7 @@
       <updated>1714669690404</updated>
       <workItem from="1714669691485" duration="27826000" />
       <workItem from="1715321990986" duration="17158000" />
-      <workItem from="1715424735639" duration="3663000" />
+      <workItem from="1715424735639" duration="12966000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <option name="closed" value="true" />
@@ -255,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715362530984</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="GitHub MoneyWireApp">
+      <option name="closed" value="true" />
+      <created>1715523857106</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1715523857106</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +299,7 @@
     <MESSAGE value="ClassWork 17" />
     <MESSAGE value="HW 17 encapsulation" />
     <MESSAGE value="HW 17 encapsulation dopilit normal" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 17 encapsulation dopilit normal" />
+    <MESSAGE value="GitHub MoneyWireApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="GitHub MoneyWireApp" />
   </component>
 </project>
