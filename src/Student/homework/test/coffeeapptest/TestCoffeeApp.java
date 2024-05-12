@@ -1,4 +1,4 @@
-package Student.homework.test;
+package Student.homework.test.coffeeapptest;
 
 import Student.homework.exercise.coffeeapp.Container;
 
