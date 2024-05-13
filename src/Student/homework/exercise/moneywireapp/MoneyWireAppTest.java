@@ -59,9 +59,15 @@ public class MoneyWireAppTest {
     public static void testInRange500 (int amount, int bank, int juridic, int physical) {
         Bank.transferFromJuridicToPhysical(amount);
         testCounter++;
-        if (Bank.money != (bank-10) && Bank.JuridicPersonClient.money != (juridic-amount)
-                && Bank.PhysicalPersonClient.money != (physical+amount-10)) {
+        if (Bank.money != (bank+10) || Bank.JuridicPersonClient.money != (juridic-amount)
+                || Bank.PhysicalPersonClient.money != (physical+amount-10)) {
             System.out.println("Test Failed");
+            System.out.println(Bank.money);
+            System.out.println(bank-10);
+            System.out.println(Bank.JuridicPersonClient.money);
+            System.out.println(juridic-amount);
+            System.out.println(Bank.PhysicalPersonClient.money);
+            System.out.println(physical+amount-10);
             failCounter++;
         } else {
             System.out.println("Test Passed");
@@ -77,8 +83,8 @@ public class MoneyWireAppTest {
         } else {
             bankCommission = amount / 100;
         }
-        if (Bank.money != bank+bankCommission &&
-                Bank.JuridicPersonClient.money != (juridic-amount) &&
+        if (Bank.money != bank+bankCommission ||
+                Bank.JuridicPersonClient.money != (juridic-amount) ||
                 Bank.PhysicalPersonClient.money != (physical+amount-bankCommission))
         {
             System.out.println("Test Failed");
