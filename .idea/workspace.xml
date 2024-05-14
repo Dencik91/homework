@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="TemperatureMeteoApp done">
-      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Cabinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Thing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Cabinet exercise done">
+      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +103,7 @@
       <workItem from="1715424735639" duration="13782000" />
       <workItem from="1715545035101" duration="13000" />
       <workItem from="1715604388377" duration="13515000" />
-      <workItem from="1715686548194" duration="3350000" />
+      <workItem from="1715686548194" duration="3770000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <option name="closed" value="true" />
@@ -318,7 +313,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715623633197</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Cabinet exercise initiate">
+      <option name="closed" value="true" />
+      <created>1715694982715</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1715694982715</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Cabinet exercise done">
+      <option name="closed" value="true" />
+      <created>1715695168828</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1715695168828</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +370,8 @@
     <MESSAGE value="DataFlowApp complete" />
     <MESSAGE value="DrawRectangle Done" />
     <MESSAGE value="TemperatureMeteoApp done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TemperatureMeteoApp done" />
+    <MESSAGE value="Cabinet exercise initiate" />
+    <MESSAGE value="Cabinet exercise done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cabinet exercise done" />
   </component>
 </project>

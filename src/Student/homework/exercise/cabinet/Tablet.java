@@ -18,4 +18,11 @@ public class Tablet extends Thing {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Tablet{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
