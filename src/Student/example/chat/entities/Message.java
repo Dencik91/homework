@@ -2,8 +2,7 @@ package Student.example.chat.entities;
 
 import java.util.Date;
 
-public class Message {
-    int id;
+public class Message extends Entity {
     String body;
     // Student.example.chat.entities.User sender;
     Date sentAt;
@@ -13,20 +12,15 @@ public class Message {
     public Message() {}
 
     public Message(int id, String body) {
-        this.setId(id);
+        super(id);
         this.body = body;
         // this.sentAt = sentAt;
         // this.receivedAt = receivedAt;
         // this.seenAt = seenAt;
     }
 
-    public void setId(int id) {
-        if (id >= 1 && id <= 1000000) {
-            this.id = id;
-        } else {
-            System.out.println("ID incorrect");
-        }
+    @Override
+    public String toString() {
+        return body  ;
     }
-
-
 }

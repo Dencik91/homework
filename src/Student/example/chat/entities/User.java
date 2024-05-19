@@ -2,8 +2,8 @@ package Student.example.chat.entities;
 
 import java.util.Date;
 
-public class User {
-    String userName = "";
+public class User extends Entity {
+    private String userName = "";
     String password = "";
     Date dob = new Date();
     Character gender = 'm';
@@ -11,7 +11,8 @@ public class User {
 
     public User() {}
 
-    public User(String userName, String password, Date dob, Character gender, String email) {
+    public User(int id, String userName, String password, Date dob, Character gender, String email) {
+        super(id);
         this.userName = userName;
         this.password = password;
         this.dob = dob;
@@ -36,6 +37,17 @@ public class User {
         } else {
             System.out.println("Email Null");
         }
+    }
 
+    public String toString () {
+        return "User " + this.userName;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 }
