@@ -56,8 +56,8 @@ public class AuthService {
         return -1; // Not found
     }
 
-    public void deleteUser(User user) {
-
+    public void deleteUser(int i) {
+        users[i] = null;
     }
 
     public void shiftUsersLeft(int i) {
