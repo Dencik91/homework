@@ -11,8 +11,20 @@ public class AuthService {
     }
 
     public void signUp(User user) {
-        users[0] = user;
-        users[1] = user;
+
+        try {
+            int i;
+            // 1. search for next available
+            for (i = 0; i < users.length; i++) {
+                if (users[i] == null) break;
+            }
+            users[i] = user;
+        } catch (ArrayIndexOutOfBoundsException e) {
+            e.printStackTrace();
+        }
+
+        // 2. insert the user
+
     }
     public void signIn() {}
     public void signOut() {}
