@@ -1,6 +1,7 @@
 package Student.example.chat.services;
 
 import Student.example.chat.entities.User;
+import Student.example.chat.exceptions.UserRegistrationFailedException;
 
 public class AuthService {
 
@@ -10,7 +11,7 @@ public class AuthService {
         users = new User[5]; //constructor load
     }
 
-    public void signUp(User user) {
+    public void signUp(User user) throws UserRegistrationFailedException {
 
         try {
             int i;
@@ -20,7 +21,7 @@ public class AuthService {
             }
             users[i] = user;
         } catch (ArrayIndexOutOfBoundsException e) {
-            e.printStackTrace();
+            throw new UserRegistrationFailedException("User list full");
         }
 
         // 2. insert the user

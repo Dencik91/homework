@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)throws Exception {
         AuthService authService = new AuthService();
         int userCount = 0;
         while(userCount < 10) {
