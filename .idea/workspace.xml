@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Commit de pe 20 mai">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="tema de acasa">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/example/chat/services/AuthService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +358,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716192896311</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="tema de acasa">
+      <option name="closed" value="true" />
+      <created>1716208990134</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716208990134</updated>
+    </task>
+    <task id="LOCAL-00033" summary="tema de acasa">
+      <option name="closed" value="true" />
+      <created>1716209073920</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1716209073920</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +393,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Final version" />
     <MESSAGE value="Exercise with ship is done perfect" />
     <MESSAGE value="Exercise with restaurantApp done" />
     <MESSAGE value="Exercise with restaurantApp done perfect" />
@@ -404,7 +417,8 @@
     <MESSAGE value="Cabinet exercise done" />
     <MESSAGE value="Commit de pe 19 mai" />
     <MESSAGE value="Commit de pe 20 mai" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit de pe 20 mai" />
+    <MESSAGE value="tema de acasa" />
+    <option name="LAST_COMMIT_MESSAGE" value="tema de acasa" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
