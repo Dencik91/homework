@@ -19,8 +19,9 @@ public class Main {
             userCount++;
         }
         User user3 = new User(3, "johny3",
-                "123", new Date(), 'm', "jh@e.h");
+                "123", new Date(), 'm', "jh3@e.h");
         System.out.println(authService.serchUser(user3));
+        System.out.println("========================================================");
         for (int i = 0; i < authService.getUsers().length; i++) {
             System.out.println(authService.getUsers()[i]);
         }
@@ -34,7 +35,11 @@ public class Main {
         for (int i = 0; i < authService.getUsers().length; i++) {
             System.out.println(authService.getUsers()[i]);
         }
-
+        System.out.println("===================Delete with drpOut johny5===================");
+        authService.dropOut(new User(5, "johny5", "123", new Date(), 'm', "jh5@e.h"));
+        for (int i = 0; i < authService.getUsers().length; i++) {
+            System.out.println(authService.getUsers()[i]);
+        }
 
     }
 }

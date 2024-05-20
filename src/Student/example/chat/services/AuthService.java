@@ -43,8 +43,15 @@ public class AuthService {
 
     public void dropOut(User user) {
         // 1. Search
+        int i = serchUser(user);
+        if (i < 0) {
+            System.out.println("User" + user + " not found");
+            return;
+        }
         // 2. Delete
+        deleteUser(i);
         // 3. Shift left
+        shiftUsersLeft(i);
     }
 
     //  ############ HELPERS ####################
