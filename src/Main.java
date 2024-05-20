@@ -12,12 +12,15 @@ public class Main {
     public static void main(String[] args)throws Exception {
         AuthService authService = new AuthService();
         int userCount = 0;
-        while(userCount < 10) {
+        while(userCount < 4) {
             User user = new User(userCount+1, "johny"+userCount,
                     "123", new Date(), 'm', "jh"+userCount+"@e.h");
             authService.signUp(user);
             userCount++;
         }
+        User user3 = new User(100, "Marry3",
+                "123", new Date(), 'm', "jh@e.h");
+        System.out.println(authService.serchUser(user3));
 
 //        MessagingService messagingService = new MessagingService();
 //        Message message1 = new Message(1, "Hello World");
