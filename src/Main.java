@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args)throws Exception {
         AuthService authService = new AuthService();
         int userCount = 0;
-        while(userCount < 4) {
+        while(userCount < 10) {
             User user = new User(userCount+1, "johny"+userCount,
                     "123", new Date(), 'm', "jh"+userCount+"@e.h");
             authService.signUp(user);

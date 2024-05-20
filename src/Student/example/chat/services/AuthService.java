@@ -8,7 +8,7 @@ public class AuthService {
     private User[] users; //class load
 //  ############OOP####################
     public AuthService() {
-        users = new User[5]; //constructor load
+        users = new User[10]; //constructor load
     }
 
     public User[] getUsers() {
@@ -54,5 +54,16 @@ public class AuthService {
             if (users[i].getUserName().equals(user.getUserName())) return i;
         }
         return -1; // Not found
+    }
+
+    public void deleteUser(User user) {
+
+    }
+
+    public void shiftUsersLeft(int i) {
+        for (int j =i+1; j < users.length; j++) {
+            users[j-1] = users[j];
+        }
+        users[users.length-1] = null;
     }
 }
