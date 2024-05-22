@@ -6,11 +6,11 @@ import Student.example.chat.exceptions.UserRegistrationFailedException;
 public class AuthService {
 
     final int MAX_USERS = 10000;
-
+    private int size = 0;
     private User[] users; //class load
 //  ############OOP####################
     public AuthService() {
-        users = new User[10]; //constructor load
+
     }
 
     public User[] getUsers() {
@@ -23,16 +23,20 @@ public class AuthService {
     //  ############ Service ####################
     public void signUp(User user) throws UserRegistrationFailedException {
 
-        try {
-            int i;
-            // 1. search for next available
-            for (i = 0; i < users.length; i++) {
-                if (users[i] == null) break;
+        if(users == null) {
+            users = new User[1];
+            size++;
+            users[size-1] = user;
+        } else {
+            User[] newUsers = new User[++size];
+            for(int i = 0; i < size-1; i++) {
+                newUsers[i] = users[i];
             }
-            users[i] = user;
-        } catch (ArrayIndexOutOfBoundsException e) {
-            throw new UserRegistrationFailedException("User list full");
+            newUsers[size-1] = user;
+            users = newUsers;
         }
+
+
 
         // 2. insert the user
 
