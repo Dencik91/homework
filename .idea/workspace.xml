@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="refactor">
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="refactor dropOut">
+      <change afterPath="$PROJECT_DIR$/src/Student/example/chat/test/dropOutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student/example/chat/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/example/chat/services/AuthService.java" afterDir="false" />
@@ -71,6 +72,7 @@
     "Application.RestaurantApp.executor": "Run",
     "Application.SeaBigShip.executor": "Run",
     "Application.TemperatureMeteoApp.executor": "Run",
+    "Application.dropOutTest.executor": "Run",
     "Application.huita.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -123,7 +125,7 @@
       <workItem from="1716140187421" duration="2109000" />
       <workItem from="1716181830708" duration="5361000" />
       <workItem from="1716274388332" duration="9453000" />
-      <workItem from="1716354741102" duration="15868000" />
+      <workItem from="1716354741102" duration="17228000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <option name="closed" value="true" />
@@ -445,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716377624008</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="refactor dropOut">
+      <option name="closed" value="true" />
+      <created>1716378603500</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1716378603500</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dopilit else-uri pentru email" />
     <MESSAGE value="Cup of coffee" />
     <MESSAGE value="schimbari majore in packages" />
     <MESSAGE value="facuta clasa CoffeeMachine aparte" />
@@ -489,7 +498,8 @@
     <MESSAGE value="checkpoint inainte de lectii" />
     <MESSAGE value="Sign Up updated" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="refactor dropOut" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor dropOut" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

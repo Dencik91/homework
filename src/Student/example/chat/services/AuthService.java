@@ -38,11 +38,11 @@ public class AuthService {
     // Refactor pentru acasa cu ajutorul la un masiv mai mic. DONE!
     public void dropOut(int i) {
 
-        if ((i < 0)||(size<1)) {
+        if ((i < 0)||(size<1)||(i>=size)) {
             System.out.println("User not found");
             return;
         }
-        User[] newUsers = new User[--size];
+        User[] newUsers = new User[size-1];
         for (int j=0; j<size; j++) {
             if (j<i) {
                 newUsers[j] = users[j];
@@ -51,14 +51,9 @@ public class AuthService {
             } else {
                 newUsers[j-1] = users[j];
             }
-
-
-
         }
-        // 2. Delete
-        deleteUser(i);
-        // 3. Shift left
-        shiftUsersLeft(i);
+        users = newUsers;
+        size--;
     }
 
     //  ############ HELPERS ####################
