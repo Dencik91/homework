@@ -5,6 +5,8 @@ import Student.example.chat.exceptions.UserRegistrationFailedException;
 
 public class AuthService {
 
+    final int MAX_USERS = 10000;
+
     private User[] users; //class load
 //  ############OOP####################
     public AuthService() {

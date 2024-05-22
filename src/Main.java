@@ -36,7 +36,8 @@ public class Main {
             System.out.println(authService.getUsers()[i]);
         }
         System.out.println("===================Delete with drpOut johny5===================");
-        authService.dropOut(new User(5, "johny5", "123", new Date(), 'm', "jh5@e.h"));
+        authService.dropOut(new User(5, "johny5", "123", new Date(), 'm',
+                "jh5@e.h"));
         for (int i = 0; i < authService.getUsers().length; i++) {
             System.out.println(authService.getUsers()[i]);
         }
