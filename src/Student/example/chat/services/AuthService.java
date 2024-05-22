@@ -23,18 +23,18 @@ public class AuthService {
     //  ############ Service ####################
     public void signUp(User user) throws UserRegistrationFailedException {
 
-        if(users == null) {
-            users = new User[1];
-            size++;
-            users[size-1] = user;
-        } else {
+//        if(users == null) {
+//            users = new User[1];
+//            size++;
+//            users[size-1] = user;
+//        } else {
             User[] newUsers = new User[++size];
             for(int i = 0; i < size-1; i++) {
                 newUsers[i] = users[i];
             }
             newUsers[size-1] = user;
             users = newUsers;
-        }
+//        }
         // 2. insert the user
 
     }
@@ -43,7 +43,7 @@ public class AuthService {
     public void dropOut() {}
 
 
-
+    // TODO Refactor pentru acasa cu ajutorul la un masiv mai mic.
     public void dropOut(User user) {
         // 1. Search
         int i = serchUser(user);
