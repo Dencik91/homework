@@ -16,13 +16,15 @@ public class dropOutTest {
             authService.signUp(user);
             userCount++;
         }
+        User user5 = new User(6, "johny5",
+                "123", new Date(), 'm', "jh5@e.h");
         System.out.println(authService.getUsers().length);
         System.out.println("================Names===================");
         for(User user : authService.getUsers()) {
             System.out.println(user.getUserName());
         }
         System.out.println("================Delete id 5=============");
-        authService.dropOut(5);
+        authService.dropOut(user5);
         System.out.println(authService.getUsers().length);
         System.out.println("================Names===================");
         for(User user : authService.getUsers()) {

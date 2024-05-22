@@ -36,8 +36,8 @@ public class AuthService {
 
 
     // Refactor pentru acasa cu ajutorul la un masiv mai mic. DONE!
-    public void dropOut(int i) {
-
+    public void dropOut(User user) {
+        int i = searchUser(user);
         if ((i < 0)||(size<1)||(i>=size)) {
             System.out.println("User not found");
             return;
