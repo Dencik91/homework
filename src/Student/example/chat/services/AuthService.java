@@ -21,7 +21,7 @@ public class AuthService {
         this.users = users;
     }
     //  ############ Service ####################
-    // TODO check user unicallity of username, throw exception
+    //  check user unicallity of username, throw exception DONE!
     public void signUp(User user) throws UserRegistrationFailedException {
         if (searchUser(user)!=-1) {
             throw new UserRegistrationFailedException("User " + user + "already exists");
@@ -35,11 +35,25 @@ public class AuthService {
     public void dropOut() {}
 
 
-    // TODO Refactor pentru acasa cu ajutorul la un masiv mai mic.
+    // Refactor pentru acasa cu ajutorul la un masiv mai mic. DONE!
     public void dropOut(int i) {
-        if (i < 0) {
+
+        if ((i < 0)||(size<1)) {
             System.out.println("User not found");
             return;
+        }
+        User[] newUsers = new User[--size];
+        for (int j=0; j<size; j++) {
+            if (j<i) {
+                newUsers[j] = users[j];
+            } else if (j==i) {
+                continue;
+            } else {
+                newUsers[j-1] = users[j];
+            }
+
+
+
         }
         // 2. Delete
         deleteUser(i);
@@ -49,9 +63,7 @@ public class AuthService {
 
     //  ############ HELPERS ####################
     public int searchUser(User user) {
-        if (users == null) {
-            return -1;
-        }
+        if (users == null) {return -1;}
         for (int i = 0; i < users.length; i++) {
             if (users[i].getUserName().equals(user.getUserName())) return i;
         }
