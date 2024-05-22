@@ -1,12 +1,7 @@
-import Student.example.chat.entities.Entity;
-import Student.example.chat.entities.Message;
-import Student.example.chat.entities.MessagingService;
 import Student.example.chat.entities.User;
 import Student.example.chat.services.AuthService;
-import Student.example.chat.validation.Validator;
 
 import java.util.Date;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args)throws Exception {
@@ -20,7 +15,7 @@ public class Main {
         }
         User user3 = new User(3, "johny3",
                 "123", new Date(), 'm', "jh3@e.h");
-        System.out.println(authService.serchUser(user3));
+        System.out.println(authService.searchUser(user3));
         System.out.println("========================================================");
         for (int i = 0; i < authService.getUsers().length; i++) {
             System.out.println(authService.getUsers()[i]);
@@ -36,8 +31,7 @@ public class Main {
             System.out.println(authService.getUsers()[i]);
         }
         System.out.println("===================Delete with drpOut johny5===================");
-        authService.dropOut(new User(5, "johny5", "123", new Date(), 'm',
-                "jh5@e.h"));
+        authService.dropOut(5);
         for (int i = 0; i < authService.getUsers().length; i++) {
             System.out.println(authService.getUsers()[i]);
         }

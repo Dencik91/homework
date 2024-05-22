@@ -39,15 +39,18 @@ public class User extends Entity {
         }
     }
 
-    public String toString () {
-        return "User " + this.userName;
-    }
-
     public String getUserName() {
         return userName;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    @Override
+    public String toString() {
+        return "User{" +
+                "userName=" + userName + '\n' +
+                ", password=" + password + '\n' +
+                ", dob=" + dob + '\n' +
+                ", gender=" + gender + '\n' +
+                ", email='" + email + '\n' +
+                '}' + "\n\n";
     }
 }

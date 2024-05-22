@@ -1,5 +1,5 @@
 package Student.example.chat.services;
-
+import java.util.Arrays;
 import Student.example.chat.entities.User;
 import Student.example.chat.exceptions.UserRegistrationFailedException;
 
@@ -7,7 +7,7 @@ public class AuthService {
 
     final int MAX_USERS = 10000;
     private int size = 0;
-    private User[] users; //class load
+    private User[] users = new User[0]; //class load
 //  ############OOP####################
     public AuthService() {
 
@@ -21,22 +21,14 @@ public class AuthService {
         this.users = users;
     }
     //  ############ Service ####################
+    // TODO check user unicallity of username, throw exception
     public void signUp(User user) throws UserRegistrationFailedException {
-
-//        if(users == null) {
-//            users = new User[1];
-//            size++;
-//            users[size-1] = user;
-//        } else {
-            User[] newUsers = new User[++size];
-            for(int i = 0; i < size-1; i++) {
-                newUsers[i] = users[i];
-            }
-            newUsers[size-1] = user;
-            users = newUsers;
-//        }
-        // 2. insert the user
-
+        if (searchUser(user)!=-1) {
+            throw new UserRegistrationFailedException("User " + user + "already exists");
+        }
+        User[] newUsers = Arrays.copyOf(users, ++size);
+        newUsers[size-1] = user;
+        users = newUsers;
     }
     public void signIn() {}
     public void signOut() {}
@@ -44,11 +36,9 @@ public class AuthService {
 
 
     // TODO Refactor pentru acasa cu ajutorul la un masiv mai mic.
-    public void dropOut(User user) {
-        // 1. Search
-        int i = serchUser(user);
+    public void dropOut(int i) {
         if (i < 0) {
-            System.out.println("User" + user + " not found");
+            System.out.println("User not found");
             return;
         }
         // 2. Delete
@@ -58,9 +48,11 @@ public class AuthService {
     }
 
     //  ############ HELPERS ####################
-    public int serchUser(User user) {
+    public int searchUser(User user) {
+        if (users == null) {
+            return -1;
+        }
         for (int i = 0; i < users.length; i++) {
-            if (users[i] == null) return -1;
             if (users[i].getUserName().equals(user.getUserName())) return i;
         }
         return -1; // Not found
