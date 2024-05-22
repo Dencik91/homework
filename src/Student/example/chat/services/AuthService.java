@@ -35,9 +35,6 @@ public class AuthService {
             newUsers[size-1] = user;
             users = newUsers;
         }
-
-
-
         // 2. insert the user
 
     }
