@@ -42,8 +42,8 @@ public class AuthService {
             System.out.println("User not found");
             return;
         }
-        User[] newUsers = new User[size-1];
-        for (int j=0; j<size; j++) {
+        User[] newUsers = new User[--size];
+        for (int j=0; j<users.length; j++) {
             if (j<i) {
                 newUsers[j] = users[j];
             } else if (j==i) {
@@ -53,8 +53,8 @@ public class AuthService {
             }
         }
         users = newUsers;
-        size--;
     }
+
 
     //  ############ HELPERS ####################
     public int searchUser(User user) {

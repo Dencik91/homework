@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="add negative test to UserSignUpTest">
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/productapp/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/productapp/ProductApp.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="array cu produse">
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/w3resource/link_to_questions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/w3resource/oopex1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/w3resource/oopex1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/w3resource/oopex2/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/w3resource/oopex2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/w3resource/oopex3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/w3resource/oopex3/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/example/chat/test/dropOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/test/dropOutTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +133,7 @@
       <workItem from="1716181830708" duration="5361000" />
       <workItem from="1716274388332" duration="9453000" />
       <workItem from="1716354741102" duration="21015000" />
-      <workItem from="1716447836804" duration="4079000" />
+      <workItem from="1716447836804" duration="10665000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <option name="closed" value="true" />
@@ -480,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716448298696</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="array cu produse">
+      <option name="closed" value="true" />
+      <created>1716452964468</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1716452964468</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HW lesson 16" />
     <MESSAGE value="HW lesson 16 am dopilit cu napilinicul" />
     <MESSAGE value="ClassWork 17" />
     <MESSAGE value="HW 17 encapsulation" />
@@ -524,7 +538,8 @@
     <MESSAGE value="refactor2 dropOut" />
     <MESSAGE value="refactor dropOut success" />
     <MESSAGE value="add negative test to UserSignUpTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add negative test to UserSignUpTest" />
+    <MESSAGE value="array cu produse" />
+    <option name="LAST_COMMIT_MESSAGE" value="array cu produse" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
