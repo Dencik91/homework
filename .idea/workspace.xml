@@ -4,47 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="refactor dropOut success">
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="add negative test to UserSignUpTest">
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/productapp/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/productapp/ProductApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/entities/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/entities/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/entities/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/entities/MessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/entities/MessagingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/exceptions/UserRegistrationFailedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/exceptions/UserRegistrationFailedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/providers/IdentificationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/providers/IdentificationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/test/IdentificationProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/test/IdentificationProviderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/test/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/test/UserSignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/test/UserSignUpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/test/dropOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/test/dropOutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/example/chat/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/validation/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/DrawCakeWithForApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/DrawCakeWithForApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/RestaurantApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/RestaurantApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/SeaBigShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/SeaBigShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/arrays/ArrayHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/arrays/ArrayHomework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/blenderapp/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/blenderapp/Banana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Blender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/blenderapp/Blender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/blenderapp/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Juice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/blenderapp/Juice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/blenderapp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/blenderapp/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/blenderapp/Orange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/cabinet/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Cabinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/cabinet/Cabinet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/cabinet/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/cabinet/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Tablet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/cabinet/Tablet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/cabinet/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/cabinet/Thing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/coffeeapp/CoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/coffeeapp/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/coffeeapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/coffeeapp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/dataflowapp/DataFlowApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/dataflowapp/DataFlowApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/drawrectangle/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/drawrectangle/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/moneywireapp/MoneyWireApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/moneywireapp/MoneyWireApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/moneywireapp/MoneyWireAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/moneywireapp/MoneyWireAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/exercise/temperaturemeteoapp/TemperatureMeteoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/temperaturemeteoapp/TemperatureMeteoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/homework/test/coffeeapptest/TestCoffeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/test/coffeeapptest/TestCoffeeApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,43 +54,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.CoffeeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeeMachine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataFlowApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Draw.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DrawCakeWithForApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Experimental.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IdentificationProviderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoneyWireApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoneyWireAppTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RestaurantApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeaBigShip.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TemperatureMeteoApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dropOutTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.huita.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/denisa/IdeaProjects/homework/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/denisa/IdeaProjects/homework/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CoffeeApp.executor": "Run",
+    "Application.CoffeeMachine.executor": "Run",
+    "Application.DataFlowApp.executor": "Run",
+    "Application.Draw.executor": "Run",
+    "Application.DrawCakeWithForApp.executor": "Run",
+    "Application.Experimental.executor": "Run",
+    "Application.IdentificationProviderTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainTest.executor": "Run",
+    "Application.MoneyWireApp.executor": "Run",
+    "Application.MoneyWireAppTest.executor": "Run",
+    "Application.ProductApp.executor": "Run",
+    "Application.RestaurantApp.executor": "Run",
+    "Application.SeaBigShip.executor": "Run",
+    "Application.TemperatureMeteoApp.executor": "Run",
+    "Application.dropOutTest.executor": "Run",
+    "Application.huita.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/denisa/IdeaProjects/homework/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/denisa/IdeaProjects/homework/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\denisa\IdeaProjects\homework\lib" />
@@ -162,7 +126,7 @@
       <workItem from="1716181830708" duration="5361000" />
       <workItem from="1716274388332" duration="9453000" />
       <workItem from="1716354741102" duration="21015000" />
-      <workItem from="1716447836804" duration="370000" />
+      <workItem from="1716447836804" duration="4079000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <option name="closed" value="true" />
@@ -508,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716380262095</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add negative test to UserSignUpTest">
+      <option name="closed" value="true" />
+      <created>1716448298696</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1716448298696</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="facuta clasa CoffeeMachine aparte" />
     <MESSAGE value="HW lesson 16" />
     <MESSAGE value="HW lesson 16 am dopilit cu napilinicul" />
     <MESSAGE value="ClassWork 17" />
@@ -552,7 +523,8 @@
     <MESSAGE value="refactor dropOut" />
     <MESSAGE value="refactor2 dropOut" />
     <MESSAGE value="refactor dropOut success" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor dropOut success" />
+    <MESSAGE value="add negative test to UserSignUpTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add negative test to UserSignUpTest" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
