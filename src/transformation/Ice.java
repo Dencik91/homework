@@ -9,7 +9,6 @@ public class Ice extends Material {
         super(weight);
     }
 
-
     @Override
     public String toString() {
         return "Ice weight=" + getWeight();
