@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="sync before lessons" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="init short examples" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -50,44 +55,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.CoffeeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeeMachine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataFlowApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Draw.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DrawCakeWithForApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Experimental.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IdentificationProviderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoneyWireApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoneyWireAppTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RestaurantApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeaBigShip.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TemperatureMeteoApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dropOutTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.huita.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/denisa/IdeaProjects/homework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/denisa/IdeaProjects/homework/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CoffeeApp.executor": "Run",
+    "Application.CoffeeMachine.executor": "Run",
+    "Application.DataFlowApp.executor": "Run",
+    "Application.Draw.executor": "Run",
+    "Application.DrawCakeWithForApp.executor": "Run",
+    "Application.Experimental.executor": "Run",
+    "Application.IdentificationProviderTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainTest.executor": "Run",
+    "Application.MoneyWireApp.executor": "Run",
+    "Application.MoneyWireAppTest.executor": "Run",
+    "Application.ProductApp.executor": "Run",
+    "Application.RestaurantApp.executor": "Run",
+    "Application.SeaBigShip.executor": "Run",
+    "Application.TemperatureMeteoApp.executor": "Run",
+    "Application.dropOutTest.executor": "Run",
+    "Application.huita.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "short-examples",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/denisa/IdeaProjects/homework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/denisa/IdeaProjects/homework/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\denisa\IdeaProjects\homework\lib" />
@@ -116,14 +121,6 @@
       <workItem from="1716354741102" duration="21015000" />
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
-    </task>
-    <task id="LOCAL-00003" summary="Initial code">
-      <option name="closed" value="true" />
-      <created>1714670520018</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1714670520018</updated>
     </task>
     <task id="LOCAL-00004" summary="Initial code">
       <option name="closed" value="true" />
@@ -509,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716553786311</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="init short examples">
+      <option name="closed" value="true" />
+      <created>1716554167640</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1716554167640</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="GitHub MoneyWireApp" />
     <MESSAGE value="GitHub MoneyWireApp cu frumusata si test class" />
     <MESSAGE value="MoneyWireApp completed" />
     <MESSAGE value="DataFlowApp complete" />
@@ -553,7 +557,8 @@
     <MESSAGE value="new method for dropout" />
     <MESSAGE value="refactor" />
     <MESSAGE value="sync before lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="sync before lessons" />
+    <MESSAGE value="init short examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="init short examples" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
