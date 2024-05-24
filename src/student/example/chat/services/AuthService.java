@@ -1,4 +1,5 @@
 package student.example.chat.services;
+import java.security.MessageDigest;
 import java.util.Arrays;
 import student.example.chat.entities.User;
 import student.example.chat.exceptions.UserRegistrationFailedException;
@@ -80,5 +81,21 @@ public class AuthService {
             users[j-1] = users[j];
         }
         users[users.length-1] = null;
+    }
+
+    public String encryptUserPassword(User user) {
+        byte[] hashedPassword = new byte[0];
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
+            hashedPassword = messageDigest.digest(
+                    user.getPassword().getBytes("UTF-8"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        String hex = "";
+        for (byte i : hashedPassword) {
+            hex += String.format("%02X", i);
+        }
+        return hex;
     }
 }

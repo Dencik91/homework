@@ -44,6 +44,10 @@ public class User extends Entity {
         return userName;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
     @Override
     public String toString() {
         return "User{" +
