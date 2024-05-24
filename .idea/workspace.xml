@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="ceva am facut">
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="String Builder">
+      <change afterPath="$PROJECT_DIR$/src/transformation/Ice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transformation/Physics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transformation/Water.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -124,14 +127,6 @@
       <workItem from="1716354741102" duration="21015000" />
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
-    </task>
-    <task id="LOCAL-00006" summary="Exercise with ship is done perfect">
-      <option name="closed" value="true" />
-      <created>1714718639419</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1714718639419</updated>
     </task>
     <task id="LOCAL-00007" summary="Exercise with restaurantApp done">
       <option name="closed" value="true" />
@@ -517,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716556347780</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="String Builder">
+      <option name="closed" value="true" />
+      <created>1716558458245</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1716558458245</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DataFlowApp complete" />
     <MESSAGE value="DrawRectangle Done" />
     <MESSAGE value="TemperatureMeteoApp done" />
     <MESSAGE value="Cabinet exercise initiate" />
@@ -561,7 +563,8 @@
     <MESSAGE value="init short examples" />
     <MESSAGE value="init short examples clear all" />
     <MESSAGE value="ceva am facut" />
-    <option name="LAST_COMMIT_MESSAGE" value="ceva am facut" />
+    <MESSAGE value="String Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Builder" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
