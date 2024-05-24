@@ -92,5 +92,8 @@ public class UserSignUpTest {
         System.out.println("Tests failed: " + failedTests);
     }
     // Teardown
-    public void after() {    }
+    public void after() {
+        successTests = 0;
+        failedTests = 0;
+    }
 }
