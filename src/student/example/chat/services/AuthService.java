@@ -53,6 +53,13 @@ public class AuthService {
             }
         }
         users = newUsers;
+
+//        for (int z=0, j=0; z<users.length; z++, j++) {
+//            if (z == i) {
+//                z++;
+//            }
+//            newUsers[j] = users[z];
+//        }
     }
 
 

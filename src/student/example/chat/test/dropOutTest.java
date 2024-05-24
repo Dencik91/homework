@@ -18,7 +18,7 @@ public class dropOutTest {
         }
         User user5 = new User(6, "johny5",
                 "123", new Date(), 'm', "jh5@e.h");
-        System.out.println("Length of users[]" + authService.getUsers().length);
+        System.out.println("Length of users" + authService.getUsers().length);
         System.out.println("================Names===================");
         for(User user : authService.getUsers()) {
             System.out.println(user.getUserName());
