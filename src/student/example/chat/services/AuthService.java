@@ -9,9 +9,7 @@ public class AuthService {
     private int size = 0;
     private User[] users = new User[0]; //class load
 //  ############OOP####################
-    public AuthService() {
-
-    }
+    public AuthService() {}
 
     public User[] getUsers() {
         return users;
@@ -20,6 +18,7 @@ public class AuthService {
     public void setUsers(User[] users) {
         this.users = users;
     }
+
     //  ############ Service ####################
     //  check user unicallity of username, throw exception DONE!
     public void signUp(User user) throws UserRegistrationFailedException {

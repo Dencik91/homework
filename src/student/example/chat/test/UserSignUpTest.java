@@ -1,6 +1,7 @@
 package student.example.chat.test;
 
 import student.example.chat.entities.User;
+import student.example.chat.exceptions.UserRegistrationFailedException;
 import student.example.chat.services.AuthService;
 import com.github.javafaker.Faker;
 
@@ -65,9 +66,11 @@ public class UserSignUpTest {
                 authService.signUp(users[i]);
                 successTests++;
                 System.out.println(users[i] + " signed up");
-            } catch (Exception e) {
+            } catch (UserRegistrationFailedException e) {
                 System.out.println("User already exists");
                 failedTests++;
+            } catch (Exception e) {
+                System.out.println("Unexpected exception");
             }
         }
         System.out.println("Tests passed: " + successTests);
