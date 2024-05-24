@@ -14,10 +14,11 @@ public class Main {
     }
 
     public static String scream (String letter, int length) {
-        String word = letter.toUpperCase();
+        StringBuilder word = new StringBuilder(); //builder design pattern
+        word.append(letter.toUpperCase());
         for (int i = 1; i < length; i++) {
-            word += "-" + letter;
+            word.append("-").append(letter);
         }
-        return word;
+        return word.append("!").toString();
     }
 }
