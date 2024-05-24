@@ -1,6 +1,6 @@
 package transformation;
 
-public class Water {
+public class Water extends Material{
 
     private int weight;
 
@@ -8,19 +8,12 @@ public class Water {
     }
 
     public Water(int weight) {
-        this.weight = weight;
+        super(weight);
     }
 
-    public int getWeight() {
-        return weight;
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
 
     @Override
     public String toString() {
-        return "Water weight=" + weight;
+        return "Water weight=" + getWeight();
     }
 }

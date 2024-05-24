@@ -1,26 +1,17 @@
 package transformation;
 
-public class Ice {
-
-    private int weight;
+public class Ice extends Material {
 
     public Ice() {
     }
 
     public Ice(int weight) {
-        this.weight = weight;
+        super(weight);
     }
 
-    public int getWeight() {
-        return weight;
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
 
     @Override
     public String toString() {
-        return "Ice weight=" + weight;
+        return "Ice weight=" + getWeight();
     }
 }
