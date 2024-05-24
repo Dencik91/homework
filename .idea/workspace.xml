@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="sync before lessons">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/example/chat/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/example/chat/test/IdentificationProviderTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="sync before lessons" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,14 +116,6 @@
       <workItem from="1716354741102" duration="21015000" />
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
-    </task>
-    <task id="LOCAL-00002" summary="Initial code">
-      <option name="closed" value="true" />
-      <created>1714670246246</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1714670246246</updated>
     </task>
     <task id="LOCAL-00003" summary="Initial code">
       <option name="closed" value="true" />
@@ -515,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716547820143</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="sync before lessons">
+      <option name="closed" value="true" />
+      <created>1716553786311</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1716553786311</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
