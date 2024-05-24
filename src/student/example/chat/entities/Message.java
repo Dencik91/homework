@@ -1,6 +1,7 @@
 package student.example.chat.entities;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Message extends Entity {
     String body;
@@ -11,7 +12,7 @@ public class Message extends Entity {
 
     public Message() {}
 
-    public Message(int id, String body) {
+    public Message(UUID id, String body) {
         super(id);
         this.body = body;
         // this.sentAt = sentAt;

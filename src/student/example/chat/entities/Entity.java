@@ -1,23 +1,21 @@
 package student.example.chat.entities;
 
+import java.util.UUID;
+
 public abstract class Entity {
-    private int id;
+    private UUID id;
 
     public Entity() {}
 
-    public Entity(int id) {
+    public Entity(UUID id) {
         setId(id);
     }
 
-    public int getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(int id) {
-        if (id >= 1 && id <= 1000000) {
-            this.id = id;
-        } else {
-            System.out.println("ID incorrect");
-        }
+    public void setId(UUID id) {
+        this.id = id;
     }
 }

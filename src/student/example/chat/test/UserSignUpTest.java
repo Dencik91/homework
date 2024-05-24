@@ -4,11 +4,9 @@ import student.example.chat.entities.User;
 import student.example.chat.exceptions.UserRegistrationFailedException;
 import student.example.chat.services.AuthService;
 import com.github.javafaker.Faker;
+import student.example.chat.services.IdentificationService;
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
-import java.util.Random;
+import java.util.*;
 
 public class UserSignUpTest {
 
@@ -45,10 +43,11 @@ public class UserSignUpTest {
         Random random = new Random();
         Faker faker = new Faker(new Locale("md"));
 
+        IdentificationService identificationService = new IdentificationService();
         // Ciclu
         for (int i = 0; i < MAX_USERS; i++) {
             int randomGender = random.nextInt(gender.length);
-            users[i] = new User(id++,
+            users[i] = new User(identificationService.getID(),
                     faker.name().username(),
                     faker.internet().password(),
                     faker.date().between(new Date(80, Calendar.JANUARY,1),

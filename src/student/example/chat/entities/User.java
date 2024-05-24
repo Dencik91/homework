@@ -1,6 +1,7 @@
 package student.example.chat.entities;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class User extends Entity {
     private String userName = "";
@@ -11,7 +12,7 @@ public class User extends Entity {
 
     public User() {}
 
-    public User(int id, String userName, String password, Date dob, Character gender, String email) {
+    public User(UUID id, String userName, String password, Date dob, Character gender, String email) {
         super(id);
         this.userName = userName;
         this.password = password;

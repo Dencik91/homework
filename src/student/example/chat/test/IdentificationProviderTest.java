@@ -1,7 +1,5 @@
 package student.example.chat.test;
 
-import student.example.chat.providers.IdentificationProvider;
-
 public class IdentificationProviderTest {
     public static void main(String[] args) {
         int count1 = 0;
