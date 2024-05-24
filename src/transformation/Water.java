@@ -5,12 +5,12 @@ public class Water extends Material{
     public Water() {
     }
 
-    public Water(int weight) {
-        super(weight);
+    public Water(int temperature) {
+        super(temperature);
     }
 
     @Override
     public String toString() {
-        return "Water weight=" + getWeight();
+        return "Water weight=" + getTemperature();
     }
 }

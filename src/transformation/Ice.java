@@ -5,12 +5,12 @@ public class Ice extends Material {
     public Ice() {
     }
 
-    public Ice(int weight) {
-        super(weight);
+    public Ice(int temperature) {
+        super(temperature);
     }
 
     @Override
     public String toString() {
-        return "Ice weight=" + getWeight();
+        return "Ice weight=" + getTemperature();
     }
 }

@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Physics">
-      <change afterPath="$PROJECT_DIR$/src/transformation/Material.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Add Material norm">
+      <change afterPath="$PROJECT_DIR$/src/transformation/Heater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transformation/Ice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transformation/Ice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transformation/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transformation/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transformation/Physics.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transformation/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transformation/Water.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,22 +129,6 @@
       <workItem from="1716354741102" duration="21015000" />
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
-    </task>
-    <task id="LOCAL-00008" summary="Exercise with restaurantApp done perfect">
-      <option name="closed" value="true" />
-      <created>1714722859099</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1714722859099</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Ship exercise corrected">
-      <option name="closed" value="true" />
-      <created>1714732895754</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1714732895754</updated>
     </task>
     <task id="LOCAL-00010" summary="Prepare for Homework&#10;Regex for email is done">
       <option name="closed" value="true" />
@@ -519,7 +506,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716564459015</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Add Material">
+      <option name="closed" value="true" />
+      <created>1716565333202</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1716565333202</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Add Material norm">
+      <option name="closed" value="true" />
+      <created>1716565752203</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1716565752203</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,8 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TemperatureMeteoApp done" />
-    <MESSAGE value="Cabinet exercise initiate" />
     <MESSAGE value="Cabinet exercise done" />
     <MESSAGE value="Commit de pe 19 mai" />
     <MESSAGE value="Commit de pe 20 mai" />
@@ -563,7 +564,9 @@
     <MESSAGE value="ceva am facut" />
     <MESSAGE value="String Builder" />
     <MESSAGE value="Physics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Physics" />
+    <MESSAGE value="Add Material" />
+    <MESSAGE value="Add Material norm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Material norm" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

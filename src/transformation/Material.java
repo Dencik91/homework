@@ -1,19 +1,19 @@
 package transformation;
 
 public abstract class Material {
-    private int weight;
+    private int temperature;
 
     public Material () {}
 
-    public Material(int weight) {
-        this.weight = weight;
+    public Material(int temperature) {
+        this.temperature = temperature;
     }
 
-    public int getWeight() {
-        return weight;
+    public int getTemperature() {
+        return temperature;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
+    public void setTemperature(int temperature) {
+        this.temperature = temperature;
     }
 }
