@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="sync before lessons">
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Add Material norm">
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/box/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/box/ThingInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/example/chat/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/example/chat/test/IdentificationProviderTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="short-examples" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,48 +59,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.CoffeeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeeMachine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataFlowApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Draw.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DrawCakeWithForApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Experimental.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IdentificationProviderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoneyWireApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoneyWireAppTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RestaurantApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeaBigShip.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TemperatureMeteoApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dropOutTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.huita.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/denisa/IdeaProjects/homework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/denisa/IdeaProjects/homework/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Application.executor": "Run",
+    "Application.CoffeeApp.executor": "Run",
+    "Application.CoffeeMachine.executor": "Run",
+    "Application.DataFlowApp.executor": "Run",
+    "Application.Draw.executor": "Run",
+    "Application.DrawCakeWithForApp.executor": "Run",
+    "Application.Experimental.executor": "Run",
+    "Application.IdentificationProviderTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainTest.executor": "Run",
+    "Application.MoneyWireApp.executor": "Run",
+    "Application.MoneyWireAppTest.executor": "Run",
+    "Application.ProductApp.executor": "Run",
+    "Application.RestaurantApp.executor": "Run",
+    "Application.SeaBigShip.executor": "Run",
+    "Application.TemperatureMeteoApp.executor": "Run",
+    "Application.dropOutTest.executor": "Run",
+    "Application.huita.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/denisa/IdeaProjects/homework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/denisa/IdeaProjects/homework/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\denisa\IdeaProjects\homework\lib" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,78 +134,7 @@
       <workItem from="1716354741102" duration="21015000" />
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
-    </task>
-    <task id="LOCAL-00002" summary="Initial code">
-      <option name="closed" value="true" />
-      <created>1714670246246</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1714670246246</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Initial code">
-      <option name="closed" value="true" />
-      <created>1714670520018</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1714670520018</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Initial code">
-      <option name="closed" value="true" />
-      <created>1714717757051</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1714717757051</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Final version">
-      <option name="closed" value="true" />
-      <created>1714717879585</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1714717879585</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Exercise with ship is done perfect">
-      <option name="closed" value="true" />
-      <created>1714718639419</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1714718639419</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Exercise with restaurantApp done">
-      <option name="closed" value="true" />
-      <created>1714722035931</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1714722035931</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Exercise with restaurantApp done perfect">
-      <option name="closed" value="true" />
-      <created>1714722859099</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1714722859099</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Ship exercise corrected">
-      <option name="closed" value="true" />
-      <created>1714732895754</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1714732895754</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Prepare for Homework&#10;Regex for email is done">
-      <option name="closed" value="true" />
-      <created>1715324041842</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1715324041842</updated>
+      <workItem from="1716740065802" duration="1992000" />
     </task>
     <task id="LOCAL-00011" summary="dopilit else-uri pentru email">
       <option name="closed" value="true" />
@@ -515,7 +456,79 @@
       <option name="project" value="LOCAL" />
       <updated>1716547820143</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="sync before lessons">
+      <option name="closed" value="true" />
+      <created>1716553786311</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1716553786311</updated>
+    </task>
+    <task id="LOCAL-00052" summary="init short examples">
+      <option name="closed" value="true" />
+      <created>1716554167640</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1716554167640</updated>
+    </task>
+    <task id="LOCAL-00053" summary="init short examples clear all">
+      <option name="closed" value="true" />
+      <created>1716554326717</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1716554326717</updated>
+    </task>
+    <task id="LOCAL-00054" summary="ceva am facut">
+      <option name="closed" value="true" />
+      <created>1716556347780</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1716556347780</updated>
+    </task>
+    <task id="LOCAL-00055" summary="String Builder">
+      <option name="closed" value="true" />
+      <created>1716558458245</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1716558458245</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Physics">
+      <option name="closed" value="true" />
+      <created>1716564459015</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1716564459015</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Add Material">
+      <option name="closed" value="true" />
+      <created>1716565333202</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1716565333202</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Add Material norm">
+      <option name="closed" value="true" />
+      <created>1716565752203</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1716565752203</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Add Material norm">
+      <option name="closed" value="true" />
+      <created>1716567567875</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1716567567875</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,13 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="GitHub MoneyWireApp" />
-    <MESSAGE value="GitHub MoneyWireApp cu frumusata si test class" />
-    <MESSAGE value="MoneyWireApp completed" />
-    <MESSAGE value="DataFlowApp complete" />
-    <MESSAGE value="DrawRectangle Done" />
-    <MESSAGE value="TemperatureMeteoApp done" />
-    <MESSAGE value="Cabinet exercise initiate" />
     <MESSAGE value="Cabinet exercise done" />
     <MESSAGE value="Commit de pe 19 mai" />
     <MESSAGE value="Commit de pe 20 mai" />
@@ -559,7 +565,14 @@
     <MESSAGE value="new method for dropout" />
     <MESSAGE value="refactor" />
     <MESSAGE value="sync before lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="sync before lessons" />
+    <MESSAGE value="init short examples" />
+    <MESSAGE value="init short examples clear all" />
+    <MESSAGE value="ceva am facut" />
+    <MESSAGE value="String Builder" />
+    <MESSAGE value="Physics" />
+    <MESSAGE value="Add Material" />
+    <MESSAGE value="Add Material norm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Material norm" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
