@@ -11,6 +11,6 @@ public class Ice extends Material {
 
     @Override
     public String toString() {
-        return "Ice weight=" + getTemperature();
+        return "Ice temperature=" + getTemperature();
     }
 }

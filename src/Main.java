@@ -1,13 +1,16 @@
 import transformation.Heater;
+import transformation.Ice;
+import transformation.Material;
 import transformation.Water;
 
 public class Main {
     public static void main(String[] args)throws Exception {
-        Water water = new Water(0);
+        Ice ice = new Ice(-5);
+        System.out.println(ice);
         Heater heater = new Heater();
-        for (int i = 0; i<100; i++) {
-            heater.heat(water);
-        }
-        System.out.println(water.getTemperature());
+        Material newMaterial = heater.heat(ice, 10);
+        System.out.println(newMaterial);
+        Material newMaterial2 = heater.cool(newMaterial, 6);
+        System.out.println(newMaterial2);
     }
 }

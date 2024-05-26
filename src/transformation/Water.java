@@ -11,6 +11,6 @@ public class Water extends Material{
 
     @Override
     public String toString() {
-        return "Water weight=" + getTemperature();
+        return "Water temperature=" + getTemperature();
     }
 }

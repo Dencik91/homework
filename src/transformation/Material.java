@@ -2,6 +2,7 @@ package transformation;
 
 public abstract class Material {
     private int temperature;
+    final int MELT_POINT = 0;
 
     public Material () {}
 
@@ -16,4 +17,8 @@ public abstract class Material {
     public void setTemperature(int temperature) {
         this.temperature = temperature;
     }
+
+
+
+
 }
