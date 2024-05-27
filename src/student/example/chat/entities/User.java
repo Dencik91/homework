@@ -5,7 +5,7 @@ import java.util.UUID;
 
 public class User extends Entity {
     private String userName = "";
-    String password = "";
+    private String password = "";
     Date dob = new Date();
     Character gender = 'm';
     String email = "";
@@ -46,6 +46,10 @@ public class User extends Entity {
 
     public String getPassword() {
         return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override

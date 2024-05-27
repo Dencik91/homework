@@ -27,9 +27,26 @@ public class AuthService {
             throw new UserRegistrationFailedException("User " + user + "already exists");
         }
         User[] newUsers = Arrays.copyOf(users, ++size);
+        user.setPassword(encryptUserPassword(user));
         newUsers[size-1] = user;
         users = newUsers;
     }
+
+    public User authenticate (String userName, String password) {
+        // search user by name
+        int index = searchUserByUsername(userName);
+        if (index == -1) {
+            return null;
+        }
+        // obtain password hash
+        String passwordHash = users[index].getId().toString().substring(0,8)+ getHash256(password);
+        // compare password with user password hash
+        if (users[index].getPassword().equals(passwordHash)) {
+            return users[index];
+        }
+        return null;
+    }
+
     public void signIn() {}
     public void signOut() {}
     public void dropOut() {}
@@ -64,10 +81,10 @@ public class AuthService {
 
 
     //  ############ HELPERS ####################
-    public int searchUser(User user) {
+    public int searchUserByUsername(String username) {
         if (users == null) {return -1;}
         for (int i = 0; i < users.length; i++) {
-            if (users[i].getUserName().equals(user.getUserName())) return i;
+            if (users[i].getUserName().equals(username)) return i;
         }
         return -1; // Not found
     }
@@ -84,18 +101,33 @@ public class AuthService {
     }
 
     public String encryptUserPassword(User user) {
+        // Append to hexPassword first 8 characters from user id at start of password
+        StringBuilder hexPassword = new StringBuilder(user.getId().toString().substring(0,8));
+        hexPassword.append(getHash256(user.getPassword()));
+
+        return hexPassword.toString();
+    }
+
+    public String getHash256(String value) {
+        StringBuilder valuehash = new StringBuilder();
         byte[] hashedPassword = new byte[0];
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
-            hashedPassword = messageDigest.digest(
-                    user.getPassword().getBytes("UTF-8"));
+            hashedPassword = messageDigest.digest(value.getBytes("UTF-8"));
         } catch (Exception e) {
             e.printStackTrace();
         }
-        String hex = "";
         for (byte i : hashedPassword) {
-            hex += String.format("%02X", i);
+            valuehash.append(String.format("%02X", i));
         }
-        return hex;
+        return valuehash.toString();
+    }
+
+    public int searchUser(User user) {
+        if (users == null) {return -1;}
+        for (int i = 0; i < users.length; i++) {
+            if (users[i].getUserName().equals(user.getUserName())) return i;
+        }
+        return -1; // Not found
     }
 }

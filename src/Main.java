@@ -11,6 +11,7 @@ public class Main {
                 "Den", "123", new Date(), 'M', "den@gmail.com");
         AuthService authService = new AuthService();
         System.out.println(authService.encryptUserPassword(user));
+        System.out.println(user.getId());
 
     }
 }
