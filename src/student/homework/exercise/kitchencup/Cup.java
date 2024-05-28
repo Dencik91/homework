@@ -1,13 +1,16 @@
 package student.homework.exercise.kitchencup;
 
-import java.util.Arrays;
 
 public class Cup {
-    String liquidName;
-    int liquidVolume;// in ml
-    String[] validLiquids = {"Water", "Milk", "Tea"};
+    private String liquidName;
+    protected int liquidVolume;// in ml
+    private final String[] validLiquids = {"Water", "Milk", "Tea"};
 
     public Cup () {}
+
+    public Cup(String liquidName) {
+        this.setLiquidName(liquidName);
+    }
 
     public Cup(String liquidName, int liquidVolume) {
         this.setLiquidName(liquidName);

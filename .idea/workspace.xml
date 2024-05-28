@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="add authenticate">
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Cup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/SmallCup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/BigCup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/world/Liquid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Cup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Cup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/SmallCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/SmallCup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,14 +130,6 @@
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
       <workItem from="1716740065802" duration="1992000" />
-    </task>
-    <task id="LOCAL-00013" summary="schimbari majore in packages">
-      <option name="closed" value="true" />
-      <created>1715338998567</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1715338998567</updated>
     </task>
     <task id="LOCAL-00014" summary="facuta clasa CoffeeMachine aparte">
       <option name="closed" value="true" />
@@ -521,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716793825771</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add authenticate">
+      <option name="closed" value="true" />
+      <created>1716818526250</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1716818526251</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

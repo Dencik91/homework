@@ -1,17 +1,17 @@
 package student.homework.exercise.kitchencup;
 
-public class SmallCup extends Cup {
+public class BigCup extends Cup {
 
-    public SmallCup () {}
+    public BigCup () {}
 
-    public SmallCup(String liquidName, int liquidVolume) {
+    public BigCup(String liquidName, int liquidVolume) {
         super(liquidName);
         setLiquidVolume(liquidVolume);
     }
 
     @Override
     public void setLiquidVolume(int liquidVolume) {
-        if ((liquidVolume >= 0)&&(liquidVolume <= 250)) {
+        if ((liquidVolume >= 0)&&(liquidVolume <= 1000)) {
             this.liquidVolume = liquidVolume;
             System.out.println("Successful pour " + liquidVolume + "ml");
         } else {
