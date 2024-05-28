@@ -1,21 +1,12 @@
 package student.homework.exercise.kitchencup;
 
+import student.homework.exercise.world.Liquid;
+
 public class SmallCup extends Cup {
 
     public SmallCup () {}
 
-    public SmallCup(String liquidName, int liquidVolume) {
-        super(liquidName);
-        setLiquidVolume(liquidVolume);
-    }
-
-    @Override
-    public void setLiquidVolume(int liquidVolume) {
-        if ((liquidVolume >= 0)&&(liquidVolume <= 250)) {
-            this.liquidVolume = liquidVolume;
-            System.out.println("Successful pour " + liquidVolume + "ml");
-        } else {
-            System.out.println("Invalid quantity of liquid");
-        }
+    public SmallCup(Liquid liquid) {
+        super(liquid);
     }
 }

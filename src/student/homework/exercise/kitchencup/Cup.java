@@ -1,45 +1,28 @@
 package student.homework.exercise.kitchencup;
 
 
+import student.homework.exercise.world.Liquid;
+
 public class Cup {
-    private String liquidName;
-    protected int liquidVolume;// in ml
+    private Liquid liquid;
+    final static int MAX_VOLUME = 600; // in ml
     private final String[] validLiquids = {"Water", "Milk", "Tea"};
 
     public Cup () {}
 
-    public Cup(String liquidName) {
-        this.setLiquidName(liquidName);
+    public Cup(Liquid liquid) {
+        setLiquid(liquid);
     }
 
-    public Cup(String liquidName, int liquidVolume) {
-        this.setLiquidName(liquidName);
-        this.setLiquidVolume(liquidVolume);
+    public Liquid getLiquid() {
+        return liquid;
     }
 
-    public String getLiquidName() {
-        return liquidName;
-    }
-
-    public void setLiquidName(String liquidName) {
-        if (isLiquidValid(liquidName)) {
-            this.liquidName = liquidName;
-            System.out.println("The cup is for " + liquidName);
+    public void setLiquid(Liquid liquid) {
+        if (!isLiquidValid(liquid.getName())) {
+            System.out.println("This liquid can't be pour in cup");
         } else {
-            System.out.println("The liquid is invalid");
-        }
-    }
-
-    public int getLiquidVolume() {
-        return liquidVolume;
-    }
-
-    public void setLiquidVolume(int liquidVolume) {
-        if ((liquidVolume >= 0)&&(liquidVolume <= 600)) {
-            this.liquidVolume = liquidVolume;
-            System.out.println("Successful pour " + liquidVolume + "ml");
-        } else {
-            System.out.println("Invalid quantity of liquid");
+            this.liquid = liquid;
         }
     }
 
@@ -54,6 +37,7 @@ public class Cup {
 
     @Override
     public String toString() {
-        return "Cup with " + liquidName + ", Volume=" + liquidVolume + "ml";
+        return "Cup with " + liquid.getName() + ", Volume of cup=" + MAX_VOLUME
+                + "ml, " + liquid.getName() + " in cup=" + liquid.getVolume();
     }
 }
