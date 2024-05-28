@@ -8,6 +8,8 @@ public class Main {
 //       System.out.println(testCup);
        Cup standartCup = new Cup(new Liquid("Water", 500, 22));
        System.out.println(standartCup);
+       standartCup.getLiquid().setVolume(standartCup.getLiquid().getVolume()+50);
+       System.out.println(standartCup);
     }
 
 
