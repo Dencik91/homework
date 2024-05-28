@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="add cup exercise">
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="exercise 4 with cup">
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/world/DangerousLiquid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/world/DrinkableLiquid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/BigCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/BigCup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Cup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Cup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/SmallCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/SmallCup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,22 +129,6 @@
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
       <workItem from="1716740065802" duration="1992000" />
-    </task>
-    <task id="LOCAL-00015" summary="HW lesson 16">
-      <option name="closed" value="true" />
-      <created>1715356078535</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1715356078535</updated>
-    </task>
-    <task id="LOCAL-00016" summary="HW lesson 16 am dopilit cu napilinicul">
-      <option name="closed" value="true" />
-      <created>1715356799444</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1715356799444</updated>
     </task>
     <task id="LOCAL-00017" summary="ClassWork 17">
       <option name="closed" value="true" />
@@ -522,7 +506,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716879360780</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="add cup exercise">
+      <option name="closed" value="true" />
+      <created>1716882465883</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1716882465883</updated>
+    </task>
+    <task id="LOCAL-00065" summary="exercise 4 with cup">
+      <option name="closed" value="true" />
+      <created>1716882618586</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1716882618586</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="tema de acasa" />
     <MESSAGE value="tema de acasa nou" />
     <MESSAGE value="tema de acasa success" />
     <MESSAGE value="checkpoint inainte de lectii" />
@@ -566,7 +565,8 @@
     <MESSAGE value="homework Box" />
     <MESSAGE value="add authenticate" />
     <MESSAGE value="add cup exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cup exercise" />
+    <MESSAGE value="exercise 4 with cup" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise 4 with cup" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

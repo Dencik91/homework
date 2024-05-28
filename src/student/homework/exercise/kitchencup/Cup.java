@@ -6,7 +6,7 @@ import student.homework.exercise.world.Liquid;
 public class Cup {
     private Liquid liquid;
     final static int MAX_VOLUME = 600; // in ml
-    private final String[] validLiquids = {"Water", "Milk", "Tea"};
+    private final String[] validLiquids = {"Water", "Milk", "Tea", "Beer", "Gasoline"};
 
     public Cup () {}
 
