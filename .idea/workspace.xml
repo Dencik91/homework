@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="exercise 4 with cup">
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/world/DangerousLiquid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/world/DrinkableLiquid.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="exercise 5 with cup">
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/main/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/AbstractRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/AlphaRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/BetaRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/CharlieRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/RobotFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/test/SimpleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Cup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Cup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,14 +133,6 @@
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
       <workItem from="1716740065802" duration="1992000" />
-    </task>
-    <task id="LOCAL-00017" summary="ClassWork 17">
-      <option name="closed" value="true" />
-      <created>1715357892495</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1715357892495</updated>
     </task>
     <task id="LOCAL-00018" summary="ClassWork 17">
       <option name="closed" value="true" />
@@ -522,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716882618586</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="exercise 5 with cup">
+      <option name="closed" value="true" />
+      <created>1716891970042</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1716891970042</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="tema de acasa nou" />
     <MESSAGE value="tema de acasa success" />
     <MESSAGE value="checkpoint inainte de lectii" />
     <MESSAGE value="Sign Up updated" />
@@ -566,7 +569,8 @@
     <MESSAGE value="add authenticate" />
     <MESSAGE value="add cup exercise" />
     <MESSAGE value="exercise 4 with cup" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise 4 with cup" />
+    <MESSAGE value="exercise 5 with cup" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise 5 with cup" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

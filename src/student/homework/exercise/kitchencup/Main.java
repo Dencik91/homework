@@ -19,6 +19,5 @@ public class Main {
        System.out.println(bigCup.getLiquid().toString());
        System.out.println(smallCup);
        System.out.println(smallCup.getLiquid().toString());
-
     }
 }
