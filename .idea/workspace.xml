@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="exercise 5 with cup">
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/main/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/AbstractRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/AlphaRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/BetaRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/CharlieRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/RobotFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/test/SimpleTest.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="robofamily">
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/test/ChargeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/test/DiagonalWalkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/kitchencup/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/main/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/AlphaRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/AlphaRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/BetaRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/BetaRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/CharlieRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/CharlieRobot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/denisa/IdeaProjects/homework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/denisa/IdeaProjects/ahoo-game&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -133,14 +131,7 @@
       <workItem from="1716447836804" duration="16676000" />
       <workItem from="1716532364456" duration="4401000" />
       <workItem from="1716740065802" duration="1992000" />
-    </task>
-    <task id="LOCAL-00018" summary="ClassWork 17">
-      <option name="closed" value="true" />
-      <created>1715358011134</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1715358011134</updated>
+      <workItem from="1716959600911" duration="4000" />
     </task>
     <task id="LOCAL-00019" summary="HW 17 encapsulation">
       <option name="closed" value="true" />
@@ -526,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716891970042</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="robofamily">
+      <option name="closed" value="true" />
+      <created>1716898869343</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1716898869343</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="tema de acasa success" />
     <MESSAGE value="checkpoint inainte de lectii" />
     <MESSAGE value="Sign Up updated" />
     <MESSAGE value="refactor dropOut" />
@@ -570,7 +568,8 @@
     <MESSAGE value="add cup exercise" />
     <MESSAGE value="exercise 4 with cup" />
     <MESSAGE value="exercise 5 with cup" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise 5 with cup" />
+    <MESSAGE value="robofamily" />
+    <option name="LAST_COMMIT_MESSAGE" value="robofamily" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

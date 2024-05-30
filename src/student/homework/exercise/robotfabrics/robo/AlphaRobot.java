@@ -1,22 +1,20 @@
 package student.homework.exercise.robotfabrics.robo;
 
-import org.w3c.dom.ranges.RangeException;
-
 public class AlphaRobot extends AbstractRobot{
     private String name = "Robocop";
     private String model = "Alpha_Robot";
-    private int x;
+    private int charge;
     private int y;
 
     public AlphaRobot() {
-        this.x = 0;
+        this.charge = 0;
         this.y = 0;
     }
 
     public AlphaRobot(String name, String model) {
         setName(name);
         setModel(model);
-        this.x = 0;
+        this.charge = 0;
         this.y = 0;
     }
 
@@ -50,13 +48,13 @@ public class AlphaRobot extends AbstractRobot{
 
     @Override
     public int getX() {
-        return x;
+        return charge;
     }
 
     @Override
     public void setX(int x) {
         if ((x >=0)&&(x <= 100)) {
-            this.x = x;
+            this.charge = x;
         } else {
             System.err.println("X can be only between 0 and 100");
         }
