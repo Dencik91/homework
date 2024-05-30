@@ -1,7 +1,7 @@
 package student.homework.exercise.robotfabrics.robo;
 
-public class BetaRobot extends AlphaRobot{
-    private byte charge;
+public class BetaRobot extends AlphaRobot implements HasBatteryInterface{
+    private int charge;
 
     public BetaRobot () {}
 
@@ -10,11 +10,11 @@ public class BetaRobot extends AlphaRobot{
         this.charge = 0;
     }
 
-    public byte getCharge() {
+    public int getCharge() {
         return charge;
     }
 
-    public void setCharge(byte charge) {
+    public void setCharge(int charge) {
         if ((charge >=0)&&(charge <= 100)) {
             this.charge = charge;
         } else {
@@ -25,7 +25,7 @@ public class BetaRobot extends AlphaRobot{
     @Override
     public boolean moveRight() {
         if (charge >= 5) {
-            this.setCharge((byte) ((getCharge()-1)));
+            this.setCharge(getCharge()-1);
             return super.moveRight();
         } else {
             System.err.println("Low charge");
@@ -36,7 +36,7 @@ public class BetaRobot extends AlphaRobot{
     @Override
     public boolean moveLeft() {
         if (charge >= 5) {
-            this.setCharge((byte) ((getCharge()-1)));
+            this.setCharge(getCharge()-1);
             return super.moveLeft();
         } else {
             System.err.println("Low charge");
@@ -47,7 +47,7 @@ public class BetaRobot extends AlphaRobot{
     @Override
     public boolean moveDown() {
         if (charge >= 5) {
-            this.setCharge((byte) ((getCharge()-1)));
+            this.setCharge(getCharge()-1);
             return super.moveDown();
         } else {
             System.err.println("Low charge");
@@ -58,7 +58,7 @@ public class BetaRobot extends AlphaRobot{
     @Override
     public boolean moveUp() {
         if (charge >= 5) {
-            this.setCharge((byte) ((getCharge()-1)));
+            this.setCharge(getCharge()-1);
             return super.moveUp();
         } else {
             System.err.println("Low charge");

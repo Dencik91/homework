@@ -14,7 +14,7 @@ public class CharlieRobot extends BetaRobot{
         } else if ((getX()>99) || (getY()>99)) {
             return false;
         } else {
-            this.setCharge((byte) ((getCharge()-1)));
+            this.setCharge(getCharge()-1);
             setX(getX()+1);
             setY(getY()+1);
             return true;
@@ -28,7 +28,7 @@ public class CharlieRobot extends BetaRobot{
         } else if ((getX()<1) || (getY()>99)) {
             return false;
         } else {
-            this.setCharge((byte) ((getCharge()-1)));
+            this.setCharge(getCharge()-1);
             setX(getX()-1);
             setY(getY()+1);
             return true;
@@ -42,7 +42,7 @@ public class CharlieRobot extends BetaRobot{
         } else if ((getX()>99) || (getY()<1)) {
             return false;
         } else {
-            this.setCharge((byte) ((getCharge()-1)));
+            this.setCharge(getCharge()-1);
             setX(getX()+1);
             setY(getY()-1);
             return true;
@@ -56,7 +56,7 @@ public class CharlieRobot extends BetaRobot{
         } else if ((getX()<1) || (getY()<1)) {
             return false;
         } else {
-            this.setCharge((byte) ((getCharge()-1)));
+            this.setCharge(getCharge()-1);
             setX(getX()-1);
             setY(getY()-1);
             return true;

@@ -3,18 +3,18 @@ package student.homework.exercise.robotfabrics.robo;
 public class AlphaRobot extends AbstractRobot{
     private String name = "Robocop";
     private String model = "Alpha_Robot";
-    private int charge;
+    private int x;
     private int y;
 
     public AlphaRobot() {
-        this.charge = 0;
+        this.x = 0;
         this.y = 0;
     }
 
     public AlphaRobot(String name, String model) {
         setName(name);
         setModel(model);
-        this.charge = 0;
+        this.x = 0;
         this.y = 0;
     }
 
@@ -48,13 +48,13 @@ public class AlphaRobot extends AbstractRobot{
 
     @Override
     public int getX() {
-        return charge;
+        return x;
     }
 
     @Override
     public void setX(int x) {
         if ((x >=0)&&(x <= 100)) {
-            this.charge = x;
+            this.x = x;
         } else {
             System.err.println("X can be only between 0 and 100");
         }
