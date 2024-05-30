@@ -54,8 +54,9 @@ public class ChargingStation implements Has2DCoordinatesInterface, HasBatteryInt
     }
 
     public boolean charge(HasBatteryInterface chargeable) {
-        if (((AbstractRobot) chargeable).getX() != this.getX() ||
-                ((AbstractRobot) chargeable).getY() != this.getY()) {
+        if ((((AbstractRobot) chargeable).getX() != this.getX()) ||
+                (((AbstractRobot) chargeable).getY() != this.getY()) ||
+                (chargeable.getCharge() > 90)) {
             return false;
         }
         while(chargeable.getCharge()<=90) {

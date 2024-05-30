@@ -14,7 +14,7 @@ public class RobotFactory {
                 return null;
         }
     }
-    public static ChargingStation getChargingStation(int charge) {
+    public static ChargingStation getChargingStation() {
         return new ChargingStation();
     }
 }
