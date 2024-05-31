@@ -44,6 +44,6 @@ public class ArrayListMonthlyTemps {
         avg = buffer/31;
         System.out.println("\n\nMax month temperature: " + max + "C");
         System.out.println("Min month temperature: " + min + "C");
-        System.out.println("Average month temperature: " + avg + "C");
+        System.out.printf("Average month temperature: " + avg + "C");
     }
 }
