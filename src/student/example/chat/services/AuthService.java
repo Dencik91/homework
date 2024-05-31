@@ -8,7 +8,6 @@ import student.example.chat.exceptions.UserRegistrationFailedException;
 public class AuthService {
 
     final int MAX_USERS = 10000;
-    private int size = 0;
     private ArrayList<User> users = new ArrayList<>(); //class load
 //  ############OOP####################
     public AuthService() {}
@@ -55,7 +54,6 @@ public class AuthService {
         int i = searchUser(user);
         if (i < 0) {
             System.out.println("User not found");
-            return;
         } else {
             users.remove(i);
         }

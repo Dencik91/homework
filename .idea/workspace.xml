@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Fatality, tot exercituil cu robotii e facut filigranno">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="refactor+add ArrayList to AuthService">
       <change beforePath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/example/chat/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/test/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/example/chat/test/UserSignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/test/UserSignUpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,14 +129,6 @@
       <workItem from="1716740065802" duration="1992000" />
       <workItem from="1716959600911" duration="4000" />
       <workItem from="1717133396830" duration="41000" />
-    </task>
-    <task id="LOCAL-00022" summary="GitHub MoneyWireApp cu frumusata si test class">
-      <option name="closed" value="true" />
-      <created>1715537132986</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1715537132986</updated>
     </task>
     <task id="LOCAL-00023" summary="MoneyWireApp completed">
       <option name="closed" value="true" />
@@ -521,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717100252265</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="refactor+add ArrayList to AuthService">
+      <option name="closed" value="true" />
+      <created>1717136546297</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1717136546297</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor2 dropOut" />
     <MESSAGE value="refactor dropOut success" />
     <MESSAGE value="add negative test to UserSignUpTest" />
     <MESSAGE value="array cu produse" />
@@ -565,7 +565,8 @@
     <MESSAGE value="Charlie Robot Add" />
     <MESSAGE value="Charging Station" />
     <MESSAGE value="Fatality, tot exercituil cu robotii e facut filigranno" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fatality, tot exercituil cu robotii e facut filigranno" />
+    <MESSAGE value="refactor+add ArrayList to AuthService" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor+add ArrayList to AuthService" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

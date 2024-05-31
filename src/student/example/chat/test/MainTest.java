@@ -13,7 +13,7 @@ public class MainTest {
 //        for (int i = 0; i < userSignUpTest.getMAX_USERS(); i++) {
 //            System.out.println(userSignUpTest.getUsers()[i]);
 //        }
-        System.out.println("Fake users " + userSignUpTest.getUsers().length);
-        System.out.println("SignUp users " + userSignUpTest.getAuthService().getUsers().length);
+        System.out.println("Fake users " + userSignUpTest.getUsers().size());
+        System.out.println("SignUp users " + userSignUpTest.getAuthService().getUsers().size());
     }
 }
