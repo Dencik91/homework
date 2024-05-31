@@ -1,6 +1,7 @@
 package student.example.chat.services;
 import java.security.MessageDigest;
-import java.util.Arrays;
+import java.util.ArrayList;
+
 import student.example.chat.entities.User;
 import student.example.chat.exceptions.UserRegistrationFailedException;
 
@@ -8,15 +9,15 @@ public class AuthService {
 
     final int MAX_USERS = 10000;
     private int size = 0;
-    private User[] users = new User[0]; //class load
+    private ArrayList<User> users = new ArrayList<>(); //class load
 //  ############OOP####################
     public AuthService() {}
 
-    public User[] getUsers() {
+    public ArrayList<User> getUsers() {
         return users;
     }
 
-    public void setUsers(User[] users) {
+    public void setUsers(ArrayList<User> users) {
         this.users = users;
     }
 
@@ -25,24 +26,22 @@ public class AuthService {
     public void signUp(User user) throws UserRegistrationFailedException {
         if (searchUser(user)!=-1) {
             throw new UserRegistrationFailedException("User " + user + "already exists");
+        } else {
+            users.add(user);
         }
-        User[] newUsers = Arrays.copyOf(users, ++size);
-        user.setPassword(encryptUserPassword(user));
-        newUsers[size-1] = user;
-        users = newUsers;
     }
 
     public User authenticate (String userName, String password) {
         // search user by name
-        int index = searchUserByUsername(userName);
+        int index = searchUser(userName);
         if (index == -1) {
             return null;
         }
         // obtain password hash
-        String passwordHash = users[index].getId().toString().substring(0,8)+ getHash256(password);
+        String passwordHash = users.get(index).getId().toString().substring(0,8)+ getHash256(password);
         // compare password with user password hash
-        if (users[index].getPassword().equals(passwordHash)) {
-            return users[index];
+        if (users.get(index).getPassword().equals(passwordHash)) {
+            return users.get(index);
         }
         return null;
     }
@@ -51,53 +50,32 @@ public class AuthService {
     public void signOut() {}
     public void dropOut() {}
 
-
     // Refactor pentru acasa cu ajutorul la un masiv mai mic. DONE!
     public void dropOut(User user) {
         int i = searchUser(user);
-        if ((i < 0)||(size<1)||(i>=size)) {
+        if (i < 0) {
             System.out.println("User not found");
             return;
+        } else {
+            users.remove(i);
         }
-        User[] newUsers = new User[--size];
-        for (int j=0; j<users.length; j++) {
-            if (j<i) {
-                newUsers[j] = users[j];
-            } else if (j==i) {
-                continue;
-            } else {
-                newUsers[j-1] = users[j];
-            }
-        }
-        users = newUsers;
-
-//        for (int z=0, j=0; z<users.length; z++, j++) {
-//            if (z == i) {
-//                z++;
-//            }
-//            newUsers[j] = users[z];
-//        }
     }
 
-
     //  ############ HELPERS ####################
-    public int searchUserByUsername(String username) {
+    public int searchUser(String username) {
         if (users == null) {return -1;}
-        for (int i = 0; i < users.length; i++) {
-            if (users[i].getUserName().equals(username)) return i;
+        for (int i = 0; i < users.size(); i++) {
+            if (users.get(i).getUserName().equals(username)) return i;
         }
         return -1; // Not found
     }
 
-    public void deleteUser(int i) {
-        users[i] = null;
-    }
-
-    public void shiftUsersLeft(int i) {
-        for (int j =i+1; j < users.length; j++) {
-            users[j-1] = users[j];
+    public int searchUser(User user) {
+        if (users == null) {return -1;}
+        for (int i = 0; i < users.size(); i++) {
+            if (users.get(i).getUserName().equals(user.getUserName())) return i;
         }
-        users[users.length-1] = null;
+        return -1; // Not found
     }
 
     public String encryptUserPassword(User user) {
@@ -110,10 +88,12 @@ public class AuthService {
 
     public String getHash256(String value) {
         StringBuilder valuehash = new StringBuilder();
-        byte[] hashedPassword = new byte[0];
+        ArrayList<Byte> hashedPassword = new ArrayList<>();
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
-            hashedPassword = messageDigest.digest(value.getBytes("UTF-8"));
+            for(byte b : messageDigest.digest(value.getBytes("UTF-8"))) {
+                hashedPassword.add(b);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -121,13 +101,5 @@ public class AuthService {
             valuehash.append(String.format("%02X", i));
         }
         return valuehash.toString();
-    }
-
-    public int searchUser(User user) {
-        if (users == null) {return -1;}
-        for (int i = 0; i < users.length; i++) {
-            if (users[i].getUserName().equals(user.getUserName())) return i;
-        }
-        return -1; // Not found
     }
 }

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Charging Station">
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/test/ChargeStationTest.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="Fatality, tot exercituil cu robotii e facut filigranno">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/main/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/ChargingStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/ChargingStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/RobotFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/robotfabrics/robo/RobotFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/example/chat/services/AuthService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +127,7 @@
       <workItem from="1716532364456" duration="4401000" />
       <workItem from="1716740065802" duration="1992000" />
       <workItem from="1716959600911" duration="4000" />
-    </task>
-    <task id="LOCAL-00021" summary="GitHub MoneyWireApp">
-      <option name="closed" value="true" />
-      <created>1715523857106</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1715523857106</updated>
+      <workItem from="1717133396830" duration="41000" />
     </task>
     <task id="LOCAL-00022" summary="GitHub MoneyWireApp cu frumusata si test class">
       <option name="closed" value="true" />
@@ -523,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717096915302</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Fatality, tot exercituil cu robotii e facut filigranno">
+      <option name="closed" value="true" />
+      <created>1717100252265</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1717100252265</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor dropOut" />
     <MESSAGE value="refactor2 dropOut" />
     <MESSAGE value="refactor dropOut success" />
     <MESSAGE value="add negative test to UserSignUpTest" />
@@ -567,7 +564,8 @@
     <MESSAGE value="robofamily" />
     <MESSAGE value="Charlie Robot Add" />
     <MESSAGE value="Charging Station" />
-    <option name="LAST_COMMIT_MESSAGE" value="Charging Station" />
+    <MESSAGE value="Fatality, tot exercituil cu robotii e facut filigranno" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fatality, tot exercituil cu robotii e facut filigranno" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
