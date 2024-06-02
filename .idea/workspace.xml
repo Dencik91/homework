@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="second arrayList exercise done">
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/arrays/DevelopersHired.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="third arrayList exercise done">
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/arrays/MainStudents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
     "Application.Experimental.executor": "Run",
     "Application.IdentificationProviderTest.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainStudents.executor": "Run",
     "Application.MainTest.executor": "Run",
     "Application.MoneyWireApp.executor": "Run",
     "Application.MoneyWireAppTest.executor": "Run",
@@ -131,14 +132,6 @@
       <workItem from="1716740065802" duration="1992000" />
       <workItem from="1716959600911" duration="4000" />
       <workItem from="1717133396830" duration="41000" />
-    </task>
-    <task id="LOCAL-00026" summary="TemperatureMeteoApp done">
-      <option name="closed" value="true" />
-      <created>1715623633197</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1715623633197</updated>
     </task>
     <task id="LOCAL-00027" summary="Cabinet exercise initiate">
       <option name="closed" value="true" />
@@ -524,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717146460960</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="third arrayList exercise done">
+      <option name="closed" value="true" />
+      <created>1717325157900</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1717325157900</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="de pe w3" />
     <MESSAGE value="de pe w3 4 exercitii" />
     <MESSAGE value="new method for dropout" />
     <MESSAGE value="refactor" />
@@ -568,7 +568,8 @@
     <MESSAGE value="refactor Tests" />
     <MESSAGE value="first arrayList exercise done" />
     <MESSAGE value="second arrayList exercise done" />
-    <option name="LAST_COMMIT_MESSAGE" value="second arrayList exercise done" />
+    <MESSAGE value="third arrayList exercise done" />
+    <option name="LAST_COMMIT_MESSAGE" value="third arrayList exercise done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
