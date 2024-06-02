@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="first arrayList exercise done">
-      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/arrays/ArrayListDatesOfBirth.java" afterDir="false" />
+    <list default="true" id="550fa0aa-8ca8-4d3d-acad-98caaf4d97c0" name="Changes" comment="second arrayList exercise done">
+      <change afterPath="$PROJECT_DIR$/src/student/homework/exercise/arrays/DevelopersHired.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/homework/exercise/arrays/ArrayListMonthlyTemps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/homework/exercise/arrays/ArrayListMonthlyTemps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,7 @@
     "Application.CoffeeApp.executor": "Run",
     "Application.CoffeeMachine.executor": "Run",
     "Application.DataFlowApp.executor": "Run",
+    "Application.DevelopersHired.executor": "Run",
     "Application.Draw.executor": "Run",
     "Application.DrawCakeWithForApp.executor": "Run",
     "Application.Experimental.executor": "Run",
@@ -131,14 +131,6 @@
       <workItem from="1716740065802" duration="1992000" />
       <workItem from="1716959600911" duration="4000" />
       <workItem from="1717133396830" duration="41000" />
-    </task>
-    <task id="LOCAL-00025" summary="DrawRectangle Done">
-      <option name="closed" value="true" />
-      <created>1715615218439</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1715615218439</updated>
     </task>
     <task id="LOCAL-00026" summary="TemperatureMeteoApp done">
       <option name="closed" value="true" />
@@ -524,7 +516,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717144753504</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="second arrayList exercise done">
+      <option name="closed" value="true" />
+      <created>1717146460959</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1717146460960</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="array cu produse" />
     <MESSAGE value="de pe w3" />
     <MESSAGE value="de pe w3 4 exercitii" />
     <MESSAGE value="new method for dropout" />
@@ -568,7 +567,8 @@
     <MESSAGE value="refactor+add ArrayList to AuthService" />
     <MESSAGE value="refactor Tests" />
     <MESSAGE value="first arrayList exercise done" />
-    <option name="LAST_COMMIT_MESSAGE" value="first arrayList exercise done" />
+    <MESSAGE value="second arrayList exercise done" />
+    <option name="LAST_COMMIT_MESSAGE" value="second arrayList exercise done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
